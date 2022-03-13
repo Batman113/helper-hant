@@ -4,6 +4,7 @@ import React, {useState} from "react";
 
 import ColorDown from "./components/color-down";
 import Translate from "./components/translate";
+import TransLate from "./components/trans-late";
 const items = [
 
     {
@@ -52,7 +53,8 @@ const App = () =>{
             onSelectedChange={changeColor}
         /> : null
         } */}
-        <Translate />
+        {/* <Translate /> */}
+        <TransLate />
     </div>)
 };
 
