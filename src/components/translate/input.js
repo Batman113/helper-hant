@@ -9,7 +9,7 @@ const Input = (props) => {
         }
         changeResult();
     },[term]);
-    return (<div className="ui form">
+    return (<div className="ui form" style={{width:'80%',margin:'auto'}}>
         <div className="field">
             <input className="input" value={term} onChange={(e) => changeTerm(e.target.value)}/>
         </div>

@@ -36,6 +36,7 @@ const options = [
     }
 ];
 
+
 const App = () =>{
     const [selected,changeColor] = useState(options[0]);
     const [show,setShow] = useState(false);
@@ -54,7 +55,7 @@ const App = () =>{
         /> : null
         } */}
         {/* <Translate /> */}
-        <TransLate />
+        <TransLate/>
     </div>)
 };
 
